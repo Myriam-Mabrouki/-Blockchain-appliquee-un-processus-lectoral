@@ -1,0 +1,4 @@
+plot "sortie_compute_pow.txt" using 1:2 with lines
+set term poststript portait
+set output "01_courbes_compute_pow.ps"
+set size 0.7, 0.7
